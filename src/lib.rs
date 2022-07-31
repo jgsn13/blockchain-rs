@@ -1,3 +1,5 @@
+type BlockHash = Vec<u8>;
+
 // Credit: https://stackoverflow.com/questions/26593387/how-can-i-get-the-current-time-in-milliseconds/44378174#44378174
 use std::time::{SystemTime, UNIX_EPOCH};
 
